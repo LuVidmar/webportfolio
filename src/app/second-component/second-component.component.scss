@@ -1,0 +1,35 @@
+h2{
+    font-size: 20pt;
+    font-weight: lighter;
+}
+
+li{
+    font-size: 12pt;
+}
+
+ul{
+    padding-left: 20vmin;
+    list-style-type: circle;
+}
+
+button{
+    color: rgb(192,192,192,0.5);
+    font-size: 20pt;
+}
+
+.diagonal{
+    padding-top: 40vmin;
+    padding-bottom: 30vmin;
+    background-color: #2C2F33;
+    width: 100%;
+    clip-path: polygon(0 4%, 100% 0, 100% 100%, 0 90%);
+}
+
+#profPhoto{
+    position: absolute;
+    height: 30vmin;
+    border-radius: 50%;
+    border: rgb(192,192,192,0.5) solid 3pt;
+    margin-left: 10%;
+    z-index: 1;
+}

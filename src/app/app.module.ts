@@ -9,6 +9,7 @@ import { MainComponentComponent } from './main-component/main-component.componen
 import { SecondComponentComponent } from './second-component/second-component.component';
 
 //Material
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SecondComponentComponent } from './second-component/second-component.co
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
