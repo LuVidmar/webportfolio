@@ -4,18 +4,21 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainframeComponent } from './mainframe/mainframe.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ArrowDownDivComponent } from './arrow-down-div/arrow-down-div.component';
 
-import {MatGridListModule} from '@angular/material/grid-list';
+//Material
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainframeComponent
+    MainframeComponent,
+    ArrowDownDivComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatGridListModule
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

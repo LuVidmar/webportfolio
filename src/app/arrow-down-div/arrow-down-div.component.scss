@@ -1,0 +1,15 @@
+div{
+    background-color: #2C2F33;
+}
+
+.sqr{
+    position: relative;
+    top: -6vmin;
+    height: 10vmin;
+    width: 10vmin;
+    background-color: #23272A;
+    transform: rotateY(180deg) rotate(45deg);
+    border-radius: 2vmin;
+    margin-left: auto;
+    margin-right: auto;
+}
