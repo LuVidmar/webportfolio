@@ -3,65 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Lucas Vidmar Webpage</title>
 </head>
 <body>
 
-  <!-- Main Text -->
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-sm-4">
-        <img src="./../assets/lv logo gray.png" alt="Logo">
-      </div>
-      <div class="col-sm-8">
-        <h1>Lucas Vidmar</h1>
-      </div>
-    </div>
+  <!-- Loaded Component -->
+  <app-main-component></app-main-component>
+
+  <!-- Next -->
+  <div style="background-color: #2C2F33; width: 100%; justify-content: center; display: flex;">
+    <button>
+      <span class="material-icons" (click)="nextComponent()">keyboard_arrow_down</span>
+    </button>
   </div>
 
-  <!-- Separator Bar -->
   <br>
-  <br>
-  <app-arrow-down-div></app-arrow-down-div>
-
-  <!-- Description -->
-  <div style="background-color: #2C2F33; width: 100%;">
-
-    <div class="container">
-      <div class="row align-items-top">
-        <div class="col-sm-4">
-          <h2>About</h2>
-        </div>
-        <div class="col-sm-8">
-          <p>I'm passionate about tech, entrepreneurship and design. I am an electronics engineering student and I work part-time.</p>
-        </div>
-      </div>
-    </div>
-
-    <br>
-
-    <!-- Icons -->
-    <ul>
-      <li style="border-left: transparent;"><a href="tel:+5401149497626">
-        <span class="material-icons">call</span>
-      </a></li>
-      <li><a href="https://www.linkedin.com/in/lucasvidmar/" target="_blank">
-        <span class="iconify" data-icon="mdi-linkedin"></span>
-      </a></li>
-      <li><a href="mailto:lucas.vidmar@gmail.com">
-        <span class="material-icons">email</span>
-      </a></li>
-    </ul>
-
-    <br>
-
-    <!-- Next -->
-    <div id="nextButton">
-      <span class="material-icons" id="arrowButton">keyboard_arrow_down</span>
-    </div>
-
-  </div>
-  
 
 </body>
 </html>
