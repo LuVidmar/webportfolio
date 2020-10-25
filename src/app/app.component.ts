@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'webportfolio';
 
-  public clicked = false;
+  public clicked = true;
   public icon = 'keyboard_arrow_down';
 
   //Change bool state
