@@ -20,7 +20,6 @@ export class MainPageComponent implements OnInit {
     this.clicked = !this.clicked;
     if (this.clicked == false){
       this.icon = 'keyboard_arrow_left';
-      console.log(this.clicked);
     }
     else {
       this.icon = 'keyboard_arrow_down';

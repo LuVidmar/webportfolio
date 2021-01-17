@@ -4,6 +4,7 @@
   },
   "hosting": [
     {
+      "target": "lucas",
       "public": "dist/webportfolio",
       "ignore": [
         "firebase.json",
@@ -18,7 +19,6 @@
       ]
     },
     {
-      "target": "webportfolio",
       "public": "dist/webportfolio",
       "ignore": [
         "**/.*"
