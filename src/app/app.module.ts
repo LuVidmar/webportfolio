@@ -3,26 +3,23 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { ArrowDownDivComponent } from './arrow-down-div/arrow-down-div.component';
-import { MainComponentComponent } from './main-component/main-component.component';
-import { SecondComponentComponent } from './second-component/second-component.component';
+
+import { MainPageModule } from './main-page/main-page.module';
+import { Notfound404Component } from './notfound404/notfound404.component';
 
 //Material
-import {MatButtonModule} from '@angular/material/button';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ArrowDownDivComponent,
-    MainComponentComponent,
-    SecondComponentComponent
+    Notfound404Component
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule,
-    MatButtonModule
+    MatButtonModule,
+    MainPageModule
   ],
   providers: [],
   bootstrap: [AppComponent]

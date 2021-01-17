@@ -15,6 +15,14 @@ ul{
 button{
     color: rgb(192,192,192,0.5);
     font-size: 20pt;
+    background-color: transparent;
+    border: transparent;
+    transition: all ease-in-out 200ms;
+    border-radius: 5pt;
+}
+
+button:hover{
+    background-color:  rgb(192,192,192,0.2);
 }
 
 .diagonal{

@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "lvwebportfolio"
+  },
+  "targets": {
+    "lvwebportfolio": {
+      "hosting": {
+        "webportfolio": [
+          "lvwebportfolio"
+        ]
+      }
+    }
   }
 }

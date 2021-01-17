@@ -7,19 +7,7 @@
 </head>
 <body>
 
-  <!-- Loaded Component -->
-  <app-main-component *ngIf="clicked"></app-main-component>
-
-  <app-second-component *ngIf="!clicked"></app-second-component>
-
-  <!-- Next -->
-  <div style="background-color: transparent; width: 100%; justify-content: center; display: flex;">
-    <button>
-      <span class="material-icons" (click)="nextComponent()">{{icon}}</span>
-    </button>
-  </div>
-
-  <br>
+  <router-outlet></router-outlet>
 
 </body>
 </html>
