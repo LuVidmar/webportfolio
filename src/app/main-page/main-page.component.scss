@@ -1,13 +1,13 @@
 body{
-    color: rgba(192, 192, 192, 0.5);
-    background-color: #23272A;
+    color: rgba(silver, 0.5);
+    background-color: var(--dark-grey);
     padding-top: 20pt;
 }
 
 button{
     border: none;
     background-color: transparent;
-    color: rgba(192, 192, 192, 0.5);
+    color: rgba(silver, 0.5);
     width: fit-content;
     height: fit-content;
     margin-left: auto;

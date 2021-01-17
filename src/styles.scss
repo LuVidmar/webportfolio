@@ -1,5 +1,10 @@
+:root{
+    --dark-grey: #23272A;
+    --middle-grey: #2C2F33;
+}
+
 html { 
-    background: #23272A no-repeat center center fixed; 
+    background: var(--dark-grey) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -10,7 +15,7 @@ html {
 }
 
 body{
-    background-color: #23272A;
+    background-color: var(--dark-grey);
 }
 
 /* Importing Bootstrap SCSS file. */
