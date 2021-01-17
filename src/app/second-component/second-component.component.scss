@@ -29,7 +29,12 @@ button{
     position: absolute;
     height: 30vmin;
     border-radius: 50%;
-    border: rgb(192,192,192,0.5) solid 3pt;
+    border: rgb(192,192,192,0.5) 3pt;
     margin-left: 10%;
     z-index: 1;
+    transition: all ease-in-out 500ms;
+}
+
+#profPhoto:hover{
+    opacity: 0.8;
 }
