@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ArrowDownDivComponent } from './arrow-down-div.component';
+import { SecondaryComponent } from './secondary.component';
 
-describe('ArrowDownDivComponent', () => {
-  let component: ArrowDownDivComponent;
-  let fixture: ComponentFixture<ArrowDownDivComponent>;
+describe('SecondaryComponent', () => {
+  let component: SecondaryComponent;
+  let fixture: ComponentFixture<SecondaryComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ArrowDownDivComponent ]
+      declarations: [ SecondaryComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ArrowDownDivComponent);
+    fixture = TestBed.createComponent(SecondaryComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,5 +1,17 @@
 {
   "projects": {
     "default": "lvwebportfolio"
+  },
+  "targets": {
+    "lvwebportfolio": {
+      "hosting": {
+        "lucas": [
+          "lvwebportfolio"
+        ],
+        "nadia": [
+          "nadiavidmar"
+        ]
+      }
+    }
   }
 }

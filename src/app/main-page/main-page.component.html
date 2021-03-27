@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Vidmar Portfolio</title>
+</head>
+<body>
+
+    <!-- Loaded Component -->
+    <app-primary *ngIf="clicked"></app-primary>
+
+    <app-secondary *ngIf="!clicked"></app-secondary>
+
+    <!-- Next -->
+    <div style="background-color: transparent; width: 100%; justify-content: center; display: flex;">
+        <button>
+            <span class="material-icons" (click)="nextComponent()">{{icon}}</span>
+        </button>
+    </div>
+
+    <br>
+    
+</body>
+</html>

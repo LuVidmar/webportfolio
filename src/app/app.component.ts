@@ -8,20 +8,4 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'webportfolio';
 
-  public clicked = true;
-  public icon = 'keyboard_arrow_down';
-
-  //Change bool state
-  public nextComponent(){
-    this.clicked = !this.clicked;
-    if (this.clicked == false){
-      this.icon = 'keyboard_arrow_left';
-      console.log(this.clicked);
-    }
-    else {
-      this.icon = 'keyboard_arrow_down';
-    }
-    
-  }
-
 }
