@@ -24,7 +24,7 @@
     "@angular/router": "^12.0.0-next.6",
     "@ng-bootstrap/ng-bootstrap": "^7.0.0",
     "angular": "^1.8.2",
-    "angular-bootstrap-md": "^10.1.1",
+    "angular-bootstrap-md": "^11.0.0",
     "bootstrap": "^4.6.0",
     "rxjs": "^6.6.6",
     "tslib": "^2.1.0",
