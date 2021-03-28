@@ -1,0 +1,8 @@
+<h1>My Impossible List</h1>
+<h3>Inspired from <a target="blank" href="https://collegeinfogeek.com/about/meet-the-author/my-impossible-list/#:~:text=Put%20simply%2C%20the%20impossible%20list,implore%20you%20to%20take%20action.">Thomas Frank</a>, in 2020 and with a lot of time in my hands, I decided to think about 100 things I would like to do before I die.</h3>
+<h3>Then, starting 2021 I decided to make it public to make myself accountable. This are the things I came up with.</h3>
+<app-loading-bar></app-loading-bar>
+<div class="thingToDo" *ngFor="let item of list | async">
+    <h1>{{item.title}}</h1>
+    <h3>{{item.desc}}</h3>
+</div>

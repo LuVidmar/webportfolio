@@ -5,11 +5,8 @@
   "targets": {
     "lvwebportfolio": {
       "hosting": {
-        "lucas": [
+        "webportfolio": [
           "lvwebportfolio"
-        ],
-        "nadia": [
-          "nadiavidmar"
         ]
       }
     }

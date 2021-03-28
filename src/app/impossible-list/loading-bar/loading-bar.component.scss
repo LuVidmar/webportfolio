@@ -1,0 +1,15 @@
+.square{
+    background-color: var(--dark-grey);
+    width: 20pt;
+    height: 20pt;
+    text-align: center;
+    border: var(--middle-grey) solid 0.5px;
+    color: whitesmoke;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+}
