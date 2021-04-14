@@ -10,7 +10,9 @@ import { Observable } from 'rxjs';
 export class FirestoreService {
 
   items: Observable<any[]>;
+  firestore: AngularFirestore;
   constructor(firestore: AngularFirestore) {
+    this.firestore = firestore;
     this.items = firestore.collection('thingsToDo').valueChanges();
   }
 
@@ -24,10 +26,10 @@ export interface thingToDo{
   title: string;
   desc: string;
   img: string;
-
+  number: number;
 }
 
-export function createThing(done: boolean, title: string, desc: string, img: string){
-  var thing: thingToDo = {done,title,desc,img};
+export function createThing(done: boolean, title: string, desc: string, img: string, number: number){
+  var thing: thingToDo = {done,title,desc,img,number};
   return thing;
 }

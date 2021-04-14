@@ -8,15 +8,16 @@ import { FirestoreService } from '../firestore.service';
 })
 export class LoadingBarComponent implements OnInit {
 
-  constructor(firestoreService: FirestoreService) { }
-  items = [];
+  list;
+  constructor(firestoreService: FirestoreService) {
+    this.list = firestoreService.getList();
+  }
 
-  ngOnInit(): void {
-    for (let index = 0; index < 100; index++) {
-      this.items.push(index);
-      
-    }
-  
+  ngOnInit(): void {  
+  }
+
+  scrollTo(n: number){
+    document.getElementById(n.toString()).scrollIntoView();
   }
 
 }

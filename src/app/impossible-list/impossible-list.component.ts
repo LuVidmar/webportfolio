@@ -6,6 +6,7 @@ import { FirestoreService } from './firestore.service';
   templateUrl: './impossible-list.component.html',
   styleUrls: ['./impossible-list.component.scss']
 })
+
 export class ImpossibleListComponent implements OnInit {
 
   list;
@@ -14,6 +15,7 @@ export class ImpossibleListComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    
   }
 
 }

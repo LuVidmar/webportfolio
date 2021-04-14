@@ -1,6 +1,6 @@
 
 <div class="container">
-    <div *ngFor="let item of items" class="square">
-        {{item}}
+    <div *ngFor="let item of list | async" class="square" (click)="scrollTo(item.number)">
+        {{item.number}}
     </div>
 </div>
