@@ -1,0 +1,25 @@
+.container{
+    background-color: var(--middle-grey);
+    color: whitesmoke;
+}
+
+h1{
+    font-weight: lighter;
+    font-size: 40pt;
+    line-height: 40pt;
+}
+
+h2{
+    font-size: 20pt;
+}
+
+h3{
+    padding: 10pt;
+    background-color: var(--dark-grey);
+    border-radius: 10pt;
+}
+
+a{
+    color: whitesmoke;
+    font-style: italic;
+}

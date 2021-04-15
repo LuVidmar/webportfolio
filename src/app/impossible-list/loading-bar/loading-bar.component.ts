@@ -17,7 +17,7 @@ export class LoadingBarComponent implements OnInit {
   }
 
   scrollTo(n: number){
-    document.getElementById(n.toString()).scrollIntoView();
+    document.getElementById(n.toString()).scrollIntoView({behavior: "smooth", block: "center", inline: "nearest"});
   }
 
 }
